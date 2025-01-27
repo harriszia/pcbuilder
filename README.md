@@ -99,13 +99,13 @@ Open a terminal and run:
 	psql -U <username> -d pc_builder -f seed.sql
 	```
 
-	#### Optional Section: pgAdmin Steps
-	If someone prefers pgAdmin over `psql` commands:
-	1.  Open pgAdmin and connect to your PostgreSQL instance.
-	2.  Create a new database called `pc_builder`.
-	3.  Use the Query Tool to run the SQL files:
-	    -   Open `setup.sql` and run its contents.
-	    -   Open `seed.sql` and run its contents.
+	Optional Section: pgAdmin Steps
+	> If someone prefers pgAdmin over `psql` commands:
+	> 1.  Open pgAdmin and connect to your PostgreSQL instance.
+	> 2.  Create a new database called `pc_builder`.
+	> 3.  Use the Query Tool to run the SQL files:
+	>     -   Open `setup.sql` and run its contents.
+	>     -   Open `seed.sql` and run its contents.
 
 
 7. **Create a `.env` file:**
