@@ -28,7 +28,7 @@ This is a personal project of mine and therefore developed to run locally.
 ### Clone the Repository
 
 ```bash
-git  clone  https://github.com/harriszia/pc-builder.git
+git  clone  https://github.com/harriszia/pcbuilder.git
 
 cd  pcbuilder
 ```
