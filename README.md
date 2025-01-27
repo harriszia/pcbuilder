@@ -29,7 +29,8 @@ This is a personal project of mine and therefore developed to run locally.
 
 ```bash
 git  clone  https://github.com/harriszia/pcbuilder.git
-
+```
+```bash
 cd  pcbuilder
 ```
 
@@ -43,32 +44,32 @@ cd  pcbuilder
 
 - Follow the installation instructions for your platform:
 
--  **Windows**: Use the PostgreSQL installer and select `pgAdmin` during installation.
+	-  **Windows**: Use the PostgreSQL installer and select `pgAdmin` during installation.
 
--  **Mac**: Install via [Homebrew](https://brew.sh/):
+	-  **Mac**: Install via [Homebrew](https://brew.sh/):
 
-	```bash
-	brew install postgresql
-	```
+		```bash
+		brew install postgresql
+		```
 
--  **Linux**: Use your package manager (e.g., `apt` for Ubuntu):
+	-  **Linux**: Use your package manager (e.g., `apt` for Ubuntu):
 
-	```bash
-	sudo apt update
-	sudo apt install postgresql postgresql-contrib
-	```
+		```bash
+		sudo apt update
+		sudo apt install postgresql postgresql-contrib
+		```
 
   
 
 3.  **Start PostgreSQL Server:**
 
--  **Windows/macOS**: PostgreSQL typically starts automatically after installation (pgAdmin).
+	-  **Windows/macOS**: PostgreSQL typically starts automatically after installation (pgAdmin).
 
--  **Linux**: Start the PostgreSQL service manually:
+	-  **Linux**: Start the PostgreSQL service manually:
 
-	```bash
-	sudo service postgresql start
-	```
+		```bash
+		sudo service postgresql start
+		```
 
   
 4.  **Verify Installation:**
@@ -79,7 +80,7 @@ Open a terminal and run:
 
 5. **Install Dependencies:**
 	 ```bash
-	 cd pcbuilder\pc-builder-backend #Move to the backend directory
+	 cd pc-builder-backend #Move to the backend directory
 	 npm install
 	 ```
 
