@@ -37,7 +37,7 @@ cd  pcbuilder
 
 ### Backend Setup
 1. **Install Node.js and npm**: [Download here](https://nodejs.org/).
----
+
 2.  **Download and Install PostgreSQL**:
 - Visit the [PostgreSQL Downloads page](https://www.postgresql.org/download/) and choose the version for your operating system.
 
@@ -58,7 +58,7 @@ cd  pcbuilder
 	sudo apt install postgresql postgresql-contrib
 	```
 
-  ---
+  
 
 3.  **Start PostgreSQL Server:**
 
@@ -70,20 +70,20 @@ cd  pcbuilder
 	sudo service postgresql start
 	```
 
- --- 
+  
 4.  **Verify Installation:**
 Open a terminal and run:
 	```bash
 	psql --version
 	```
----
+
 5. **Install Dependencies:**
 	 ```bash
 	 cd pcbuilder\pc-builder-backend #Move to the backend directory
 	 npm install
 	 ```
 
----
+
 6.  **Create and Initialize the Database**
 
 	Create a Database:
@@ -110,7 +110,7 @@ Open a terminal and run:
 	    -   Open `setup.sql` and run its contents.
 	    -   Open `seed.sql` and run its contents.
 
----
+
 7. **Create a `.env` file:**
 	Copy the `.env.example` file and update the values:
 	```bash
