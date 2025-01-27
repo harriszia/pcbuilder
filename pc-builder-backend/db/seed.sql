@@ -21,3 +21,5 @@ INSERT INTO parts (name, type, price, tier) VALUES
 ('HYTE Y70 Touch Infinite', 'Case', 380, 'high'),
 ('Fractal Design North', 'Case', 140, 'mid'),
 ('Antec Flux Pro', 'Case', 180, 'high');
+
+SELECT * FROM parts

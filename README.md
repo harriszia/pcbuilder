@@ -23,7 +23,6 @@ This is a personal project of mine and therefore developed to run locally.
 
 ## Installation
 
-  
 
 ### Clone the Repository
 
@@ -99,10 +98,7 @@ Open a terminal and run:
 	psql -U <username> -d pc_builder -f setup.sql
 	psql -U <username> -d pc_builder -f seed.sql
 	```
-	Verify Database Initialization: You can list all tables to confirm the schema:
-	```bash
-	\dt
-	```
+
 	#### Optional Section: pgAdmin Steps
 	If someone prefers pgAdmin over `psql` commands:
 	1.  Open pgAdmin and connect to your PostgreSQL instance.
@@ -113,16 +109,20 @@ Open a terminal and run:
 
 
 7. **Create a `.env` file:**
-	Copy the `.env.example` file and update the values:
+	Move back to pc_builder_backend directory and start server:
+	```bash
+	cd .. # Move back into pc_builder_backend directory
+	```
+	Copy the `.env.example` file and update the values(xcopy on windows):
 	```bash
 	cp .env.example .env
 	```
+	Open your .env file and fill out the values accordingly
 	
 8. **Start your backend server:**
-	Move back to pc_builder_backend directory and start server
+	Start the backend server:
 	```bash
-	cd ../pc_builder_backend
-	npm start
+	npm run dev
 	```
 
 ### Frontend Setup
@@ -130,7 +130,7 @@ Open a terminal and run:
 1. **Install Dependencies:**
 	In a new terminal move to your frontend directory and install packages
 	```bash
-	cd ../pcbuilder/pc_builder_frontend
+	cd .../pcbuilder/pc_builder_frontend
 	npm install
 	```
 2. **Run frontend development server:**
